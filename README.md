@@ -1,6 +1,7 @@
 # utek-champions
 
-###Tasks
+### Tasks
+
 Take In Input (Jerry)
 
 Implement code (Trudie)
