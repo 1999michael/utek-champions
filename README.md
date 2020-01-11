@@ -1,5 +1,9 @@
 # utek-champions
 
+### Dependencies
+
+1. C++11
+
 ### Tasks
 
 Take In Input (Jerry)
