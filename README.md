@@ -2,7 +2,11 @@
 
 ### Dependencies
 
-1. C++11 MinGW
+1. C++11 
+
+### Tested Compilers
+
+1. g++
 
 ### Compilation Commands
 
