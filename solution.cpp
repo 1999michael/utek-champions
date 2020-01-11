@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
     // Opens file
     string inputFileName = argv[1];
     ifstream f;
-    f.open(inputFileName);
+    f.open(inputFileName.c_str());
 
     getline(f, lineToAdd);
 
