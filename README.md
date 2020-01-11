@@ -4,8 +4,8 @@
 
 Take In Input (Jerry)
 
-Implement code (Trudie)
+Implement code (Michael)
 
-Track the moves made by traversing backwards (Michael)
+Track the moves made by traversing backwards (Trudie)
 
 Condense and write to output file (Eric)
