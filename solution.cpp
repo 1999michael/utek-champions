@@ -9,48 +9,38 @@ using namespace std;
 int main(int argc, char* argv[]) {
     string lineToAdd;
     string firstLine;
+    vector<string> originalOrder;
+    vector<string> desiredOrder;
 
     // Opens file
     string inputFileName = argv[1];
     ifstream f;
     f.open(inputFileName);
 
-    // Getting size of original
-    (getline(f, firstLine));
-    firstLine.erase(0, 10);
-    int originalSize = stoi(firstLine, nullptr);
+    getline(f, lineToAdd);
 
-    // Add original to array
-    string originalOrder[originalSize];
-    int counter = 0;
+    // Add original to vector
     while (getline(f, lineToAdd)) {
         if (!lineToAdd.find("Desired: ")) {
+            originalOrder.pop_back();
             break;
         }
-        originalOrder[counter] = lineToAdd;
-        ++counter;
+        originalOrder.push_back(lineToAdd);
     }
 
-    // Getting size of desired
-    lineToAdd.erase(0, 9);
-    int desiredSize = stoi(lineToAdd, nullptr);
-
-    // Add desired to array
-    string desiredOrder[desiredSize];
-    counter = 0;
+    // Add desired to vector
     while (getline(f, lineToAdd)) {
-        desiredOrder[counter] = lineToAdd;
-        ++counter;
+        desiredOrder.push_back(lineToAdd);
     }
 
-    cout << "Original array\n";
-    for (int i = 0; i < originalSize; ++i) {
-        cout << originalOrder[i] << '\n';
+    cout << "Original vector\n";
+    for (unsigned int i = 0; i < originalOrder.size(); ++i) {
+        cout << i << ' ' << originalOrder[i] << '\n';
     }
     cout << '\n';
-    cout << "Desired array\n";
-    for (int i = 0; i < desiredSize; ++i) {
-        cout << desiredOrder[i] << '\n';
+    cout << "Desired vector\n";
+    for (unsigned int i = 0; i < desiredOrder.size(); ++i) {
+        cout << i << ' ' << desiredOrder[i] << '\n';
     }
     cout << '\n';
     f.close();
