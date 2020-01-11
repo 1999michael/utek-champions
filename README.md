@@ -6,11 +6,11 @@
 
 ### Compilation Commands
 
-*Part 1*
+**Part 1**
 
-*Part 2*
+**Part 2**
 
-*Part 3*
+**Part 3**
 
 In terminal, the run command, assuming you have both the test.in and solution.cpp file in your current working directory.
 
