@@ -14,8 +14,9 @@ Track the moves made by traversing backwards (Trudie)
 
 Forward Track (Michael)
 
- - 1 = Insert
- - 2 = Delete
- - 3 = Replace
+ - 0 = Insert
+ - 1 = Delete
+ - 2 = Replace
+ - 3 = Nothing
 
 Condense and write to output file (Eric)
