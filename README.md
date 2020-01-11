@@ -20,3 +20,5 @@ Forward Track (Michael)
  - 3 = Nothing
 
 Condense and write to output file (Eric)
+Each operation as input is represented by vector{"Operation", "start No.", "end No.", "book names" }
+Check if the operations are consecutive(repeatitive for delete), if they are, collapse the same operations. 
