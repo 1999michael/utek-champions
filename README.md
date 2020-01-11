@@ -4,6 +4,15 @@
 
 1. C++11 MinGW
 
+### Compilation Commands
+
+* Part 1 *
+
+* Part 2 *
+
+* Part 3 *
+<code> g++ 0std=c++0x solution.cpp && ./a.out </code>
+
 ### Tasks
 
 Take In Input (Jerry)
