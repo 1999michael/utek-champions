@@ -3,11 +3,11 @@
 ### Dependencies
 
 1. C++11 
-
+---
 ### Tested Compilers
 
 1. g++
-
+---
 ### Compilation Commands
 
 **Part 1**
@@ -21,7 +21,7 @@ In terminal, the run command, assuming you have both the test.in and solution.cp
 <code> g++ 0std=c++0x solution.cpp && ./a.out test.in</code>
 
 This will create a *test.out* file containing the steps required to complete part 3 of the challenge.
-
+---
 ### Tasks
 
 Take In Input (Jerry)
