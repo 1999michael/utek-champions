@@ -2,7 +2,7 @@
 
 ### Dependencies
 
-1. C++11
+1. C++11 MinGW
 
 ### Tasks
 
