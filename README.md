@@ -11,7 +11,12 @@
 *Part 2*
 
 *Part 3*
-<code> g++ 0std=c++0x solution.cpp && ./a.out </code>
+
+In terminal, the run command, assuming you have both the test.in and solution.cpp file in your current working directory.
+
+<code> g++ 0std=c++0x solution.cpp && ./a.out test.in</code>
+
+This will create a *test.out* file containing the steps required to complete part 3 of the challenge.
 
 ### Tasks
 
